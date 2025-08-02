@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/NaughtyWaterBuoyancy/_Scenes/_PersistentScene.unity
+    guid: f4f85ebfbc58e4a4e8b2cef81a6f7181
+  - enabled: 0
+    path: Assets/NaughtyWaterBuoyancy/_Scenes/LandStadium.unity
+    guid: b85d0b1ab1404844981d4782eebe3645
+  - enabled: 0
+    path: Assets/NaughtyWaterBuoyancy/_Scenes/HoppingStadium.unity
+    guid: 4d434a0678ae6264eb027261b5bb9bc4
+  - enabled: 0
+    path: Assets/NaughtyWaterBuoyancy/_Scenes/AutopilotStadium.unity
+    guid: adf3a509805fffa4cae92b590f826ae6
+  - enabled: 1
+    path: Assets/NaughtyWaterBuoyancy/_Scenes/Stadium1.unity
+    guid: a1b421967ab74524ab16546f19b7f13e
+  m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

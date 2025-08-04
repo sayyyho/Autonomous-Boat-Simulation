@@ -187,14 +187,15 @@ public class ObstacleGenerator : MonoBehaviour
         obstacles.Clear();
     }
 
-    void OnDrawGizmos()
+   void OnDrawGizmos()
     {
-        Gizmos.color = Color.yellow;
+        Gizmos.color = Color.green;  
         Gizmos.DrawWireCube(
-            new Vector3(origin.x, obstacleHeight, origin.z),
+            new Vector3(origin.x, -0.01f, origin.z),  
             new Vector3(areaSize.x, 0.1f, areaSize.y)
         );
     }
+
 
     public void ClearAllSelections()
     {
